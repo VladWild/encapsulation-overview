@@ -1,6 +1,6 @@
 package com.vlad.wild.correct.service;
 
-import com.vlad.wild.error.info.Person;
+import com.vlad.wild.correct.info.Person;
 
 public class PersonChangeService {
 

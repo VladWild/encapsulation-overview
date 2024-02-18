@@ -1,7 +1,7 @@
 package com.vlad.wild.correct;
 
-import com.vlad.wild.error.info.Person;
-import com.vlad.wild.error.service.PersonChangeService;
+import com.vlad.wild.correct.info.Person;
+import com.vlad.wild.correct.service.PersonChangeService;
 
 public class Main {
 
