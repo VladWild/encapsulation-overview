@@ -1,7 +1,7 @@
-package com.vlad.wild;
+package com.vlad.wild.error;
 
-import com.vlad.wild.info.Person;
-import com.vlad.wild.service.PersonChangeService;
+import com.vlad.wild.error.info.Person;
+import com.vlad.wild.error.service.PersonChangeService;
 
 public class Main {
 
@@ -12,11 +12,11 @@ public class Main {
         person.setName("Игорь");
         person.setAge(23);
 
-        System.out.println(person);
+        System.out.println("Before: " + person);
 
         personChangeService.changePersonName(person, "Александр");
         personChangeService.changePersonAge(person, 24);
 
-        System.out.println(person);
+        System.out.println("After: " + person);
     }
 }

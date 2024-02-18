@@ -1,14 +1,14 @@
-package com.vlad.wild.service;
+package com.vlad.wild.correct.service;
 
-import com.vlad.wild.info.Person;
+import com.vlad.wild.error.info.Person;
 
 public class PersonChangeService {
 
     public void changePersonName(Person person, String name) {
-        person.name = name;
+        person.setName(name);
     }
 
     public void changePersonAge(Person person, int age) {
-        person.age = age;
+        person.setAge(age);
     }
 }

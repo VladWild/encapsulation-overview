@@ -1,19 +1,11 @@
-package com.vlad.wild.info;
+package com.vlad.wild.error.info;
 
 public class Person {
-    private String name;
-    private int age;
-
-    public String getName() {
-        return name;
-    }
+    public String name;
+    public int age;
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
     }
 
     public void setAge(int age) {
